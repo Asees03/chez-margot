@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="Chez Margot - Your Little Escape to France">
+    <title>Chez Margot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar" >
+                <div class="logo">
+                    <h1>Chez Margot</h1>
+                    <span class="tagline"> Your Little Escape to France </span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="Home" class="hero">
+            <div class="hero-content">
+                <h2>Simply French. Simply Beautiful.</h2>
+                <p>A charming name for a cosy French eatery with a Parisian atmosphere, delicious desserts, and a welcoming personality</p>
+                <div class="hero-buttons">
+                    <a href="#Menu" class="btn btn-primary">View Menu</a>
+                    <a href="#Contact" class="btn btn-secondary">Make Reservation</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <p class="section-subtitle">Discover our selection of French classics, freshly prepared with love and a touch of Parisian charm</p>
+                <div class="menu-categories">
+                    <h3>Appetizers</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Roque Monsieur</h4>
+                                <p>A classic French grilled sandwich layered with creamy béchamel sauce, melted cheese, and a savoury filling, toasted to golden perfection for a warm, comforting bite.</p>
+                            </div>
+                            <span class="price"> 8 eur</span>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Ratatouille Provençale</h4>
+                                <p>A traditional French vegetable medley featuring tender zucchini, eggplant, bell peppers, and tomatoes, slowly simmered with aromatic herbs and olive oil for a rustic taste of Provence.</p>
+                            </div>
+                            <span class="price">7 eur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="About" class="about">
+            <div class="container">
+                <h2 class="section-title">About Chez Margot</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>At Chez Margot, our story begins with a love for the simple pleasures of French life — the aroma of freshly baked croissants, the warmth of a perfectly brewed coffee, and the joy of sharing a delicious meal. Inspired by the charming cafés of Paris and the timeless traditions of French cuisine, we created a place where every visit feels like a little escape to France. We believe that great food is more than just a meal; it's an experience filled with warmth, flavour, and beautiful memories.</p>
+                        <br>
+                        <p>Our kitchen brings together classic French flavours, fresh ingredients, and a passion for creating dishes that delight the senses. From comforting bistro favourites to delicate pastries, every plate is prepared with care and attention to detail. Whether you're joining us for a relaxed brunch, a romantic evening, or a sweet treat with friends, Chez Margot welcomes you to slow down, savour the moment, and discover the magic of French dining — one bite at a time.</p>
+                        <br>
+                    </div>
+
+                    <div class="about-image">
+                    <img src="https://thumbs.dreamstime.com/b/terrace-small-french-restaurant-parisian-street-268888007.jpg" alt="restraunt picture">
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section id="Contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+
+                        <div class="contact-item">
+                            <strong>Address: </strong>
+                            <p>12 Rue des Fleurs,Le Marais, Paris, France — 75003</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Email: </strong>
+                            <p>hello@chezmargot.example</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <strong>Phone Number: </strong>
+                            <p>+33 1 00 00 00 00</p>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Make a Reservation</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name: </label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email: </label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="number">Contact Number: </label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Timings: </label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">Reservation Date: </label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            
+                            <button type="submit">Submit Reservation</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Chez Margot</h3>
+                    <p>A charming name for a cosy French eatery with a Parisian atmosphere, delicious desserts, and a welcoming personality</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#Menu">Menu</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p>Mon-Thur: 11:00AM-10:00PM</p>
+                    <p>Fri-Sat: 11:00AM-11:00PM</p>
+                    <p>Sunday: 12:00 PM - 9:00 PM</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p> &copy; 2026 Chez Margot . All Rights Resevered</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
